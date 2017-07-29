@@ -4,7 +4,6 @@ import math
 # Name your Turtle.
 length = 20
 t = Turtle()
-r = Turtle()
 #t.forward() vs forward()
 t.width(length)
 
@@ -13,7 +12,7 @@ t.width(length)
 setup(500,300)
 x_pos = -250
 y_pos = -150
-food.setposition(x_pos, y_pos)
+t.setposition(x_pos, y_pos)
 
 ### Write your code below:
 from turtle import *
@@ -28,10 +27,10 @@ end_fill()
 done()
 
 #assignment left to right
-bleh = "style"
-angle = 90 #angle == 90
-angle = angle + 5 #angle == 95
-angle = angle + 5 #angle == 100
+# bleh = "style"
+# angle = 90 #angle == 90
+# angle = angle + 5 #angle == 95
+# angle = angle + 5 #angle == 100
 
 # Close window on click.
 exitonclick()
